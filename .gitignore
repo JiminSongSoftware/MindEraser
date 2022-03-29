@@ -1,0 +1,11 @@
+#Podfile.lock
+Pods
+*.xcuserstate
+*.xcworkspace
+.DS_Store
+*.swp
+
+## Build generated
+build/
+DerivedData
+EraseMind.xcodeproj/xcuserdata

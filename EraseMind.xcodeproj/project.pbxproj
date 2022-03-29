@@ -1,0 +1,664 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		74608D2026410CB500CFA5A2 /* MoodInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74608D1F26410CB500CFA5A2 /* MoodInputView.swift */; };
+		74608D2A26426CDF00CFA5A2 /* NSAttributedString+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74608D2926426CDF00CFA5A2 /* NSAttributedString+Extensions.swift */; };
+		74608D2F264273F800CFA5A2 /* FloatingScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74608D2E264273F800CFA5A2 /* FloatingScene.swift */; };
+		74608D3B2643DB7400CFA5A2 /* PopUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74608D3A2643DB7400CFA5A2 /* PopUpView.swift */; };
+		74648A5A263F7F1800FE3FC3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74648A59263F7F1800FE3FC3 /* AppDelegate.swift */; };
+		74648A5C263F7F1800FE3FC3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74648A5B263F7F1800FE3FC3 /* SceneDelegate.swift */; };
+		74648A63263F7F1C00FE3FC3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74648A62263F7F1C00FE3FC3 /* Assets.xcassets */; };
+		74648A66263F7F1C00FE3FC3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74648A64263F7F1C00FE3FC3 /* LaunchScreen.storyboard */; };
+		74648A71263F7F1D00FE3FC3 /* EraseMindTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74648A70263F7F1D00FE3FC3 /* EraseMindTests.swift */; };
+		74648A7C263F7F1D00FE3FC3 /* EraseMindUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74648A7B263F7F1D00FE3FC3 /* EraseMindUITests.swift */; };
+		74648A95263F830600FE3FC3 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74648A94263F830600FE3FC3 /* Theme.swift */; };
+		74648AA0263F83EC00FE3FC3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74648A9F263F83EC00FE3FC3 /* ViewController.swift */; };
+		74648AA6263F978000FE3FC3 /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74648AA5263F978000FE3FC3 /* IntroViewController.swift */; };
+		74648AAB263F986D00FE3FC3 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74648AAA263F986D00FE3FC3 /* UIView+Extensions.swift */; };
+		74648AB5263F99E100FE3FC3 /* UIImage+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74648AB4263F99E100FE3FC3 /* UIImage+Extensions.swift */; };
+		74648ABA263F9EEF00FE3FC3 /* Frankfurter Std Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 74648AB9263F9EEF00FE3FC3 /* Frankfurter Std Regular.otf */; };
+		74648AC2263FB7BB00FE3FC3 /* EnterMoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74648AC1263FB7BB00FE3FC3 /* EnterMoodViewController.swift */; };
+		74648AC7263FBBC000FE3FC3 /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74648AC6263FBBC000FE3FC3 /* NavigationController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		74648A6D263F7F1D00FE3FC3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 74648A4E263F7F1800FE3FC3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 74648A55263F7F1800FE3FC3;
+			remoteInfo = EraseMind;
+		};
+		74648A78263F7F1D00FE3FC3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 74648A4E263F7F1800FE3FC3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 74648A55263F7F1800FE3FC3;
+			remoteInfo = EraseMind;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		74608D1F26410CB500CFA5A2 /* MoodInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodInputView.swift; sourceTree = "<group>"; };
+		74608D2926426CDF00CFA5A2 /* NSAttributedString+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSAttributedString+Extensions.swift"; sourceTree = "<group>"; };
+		74608D2E264273F800CFA5A2 /* FloatingScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingScene.swift; sourceTree = "<group>"; };
+		74608D3A2643DB7400CFA5A2 /* PopUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpView.swift; sourceTree = "<group>"; };
+		74648A56263F7F1800FE3FC3 /* EraseMind.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EraseMind.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		74648A59263F7F1800FE3FC3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		74648A5B263F7F1800FE3FC3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		74648A62263F7F1C00FE3FC3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		74648A65263F7F1C00FE3FC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		74648A67263F7F1C00FE3FC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74648A6C263F7F1D00FE3FC3 /* EraseMindTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EraseMindTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		74648A70263F7F1D00FE3FC3 /* EraseMindTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EraseMindTests.swift; sourceTree = "<group>"; };
+		74648A72263F7F1D00FE3FC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74648A77263F7F1D00FE3FC3 /* EraseMindUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EraseMindUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		74648A7B263F7F1D00FE3FC3 /* EraseMindUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EraseMindUITests.swift; sourceTree = "<group>"; };
+		74648A7D263F7F1D00FE3FC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74648A94263F830600FE3FC3 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		74648A9F263F83EC00FE3FC3 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		74648AA5263F978000FE3FC3 /* IntroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroViewController.swift; sourceTree = "<group>"; };
+		74648AAA263F986D00FE3FC3 /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
+		74648AB4263F99E100FE3FC3 /* UIImage+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Extensions.swift"; sourceTree = "<group>"; };
+		74648AB9263F9EEF00FE3FC3 /* Frankfurter Std Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Frankfurter Std Regular.otf"; sourceTree = "<group>"; };
+		74648AC1263FB7BB00FE3FC3 /* EnterMoodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterMoodViewController.swift; sourceTree = "<group>"; };
+		74648AC6263FBBC000FE3FC3 /* NavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		74648A53263F7F1800FE3FC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74648A69263F7F1C00FE3FC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74648A74263F7F1D00FE3FC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		74608D392643DB5D00CFA5A2 /* PopUpView */ = {
+			isa = PBXGroup;
+			children = (
+				74608D3A2643DB7400CFA5A2 /* PopUpView.swift */,
+			);
+			path = PopUpView;
+			sourceTree = "<group>";
+		};
+		74648A4D263F7F1800FE3FC3 = {
+			isa = PBXGroup;
+			children = (
+				74648A58263F7F1800FE3FC3 /* EraseMind */,
+				74648A6F263F7F1D00FE3FC3 /* EraseMindTests */,
+				74648A7A263F7F1D00FE3FC3 /* EraseMindUITests */,
+				74648A57263F7F1800FE3FC3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		74648A57263F7F1800FE3FC3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				74648A56263F7F1800FE3FC3 /* EraseMind.app */,
+				74648A6C263F7F1D00FE3FC3 /* EraseMindTests.xctest */,
+				74648A77263F7F1D00FE3FC3 /* EraseMindUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		74648A58263F7F1800FE3FC3 /* EraseMind */ = {
+			isa = PBXGroup;
+			children = (
+				74608D392643DB5D00CFA5A2 /* PopUpView */,
+				74648AA4263F975E00FE3FC3 /* Main */,
+				74648A93263F82F200FE3FC3 /* Helpers */,
+				74648A92263F82E800FE3FC3 /* Base */,
+				74648A59263F7F1800FE3FC3 /* AppDelegate.swift */,
+				74648A5B263F7F1800FE3FC3 /* SceneDelegate.swift */,
+				74648A62263F7F1C00FE3FC3 /* Assets.xcassets */,
+				74648A64263F7F1C00FE3FC3 /* LaunchScreen.storyboard */,
+				74648A67263F7F1C00FE3FC3 /* Info.plist */,
+				74648AB9263F9EEF00FE3FC3 /* Frankfurter Std Regular.otf */,
+			);
+			path = EraseMind;
+			sourceTree = "<group>";
+		};
+		74648A6F263F7F1D00FE3FC3 /* EraseMindTests */ = {
+			isa = PBXGroup;
+			children = (
+				74648A70263F7F1D00FE3FC3 /* EraseMindTests.swift */,
+				74648A72263F7F1D00FE3FC3 /* Info.plist */,
+			);
+			path = EraseMindTests;
+			sourceTree = "<group>";
+		};
+		74648A7A263F7F1D00FE3FC3 /* EraseMindUITests */ = {
+			isa = PBXGroup;
+			children = (
+				74648A7B263F7F1D00FE3FC3 /* EraseMindUITests.swift */,
+				74648A7D263F7F1D00FE3FC3 /* Info.plist */,
+			);
+			path = EraseMindUITests;
+			sourceTree = "<group>";
+		};
+		74648A92263F82E800FE3FC3 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				74648A9F263F83EC00FE3FC3 /* ViewController.swift */,
+				74648AC6263FBBC000FE3FC3 /* NavigationController.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		74648A93263F82F200FE3FC3 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				74648A94263F830600FE3FC3 /* Theme.swift */,
+				74648AAA263F986D00FE3FC3 /* UIView+Extensions.swift */,
+				74648AB4263F99E100FE3FC3 /* UIImage+Extensions.swift */,
+				74608D2926426CDF00CFA5A2 /* NSAttributedString+Extensions.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		74648AA4263F975E00FE3FC3 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				74648AA5263F978000FE3FC3 /* IntroViewController.swift */,
+				74648AC1263FB7BB00FE3FC3 /* EnterMoodViewController.swift */,
+				74608D1F26410CB500CFA5A2 /* MoodInputView.swift */,
+				74608D2E264273F800CFA5A2 /* FloatingScene.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		74648A55263F7F1800FE3FC3 /* EraseMind */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74648A80263F7F1D00FE3FC3 /* Build configuration list for PBXNativeTarget "EraseMind" */;
+			buildPhases = (
+				74648A52263F7F1800FE3FC3 /* Sources */,
+				74648A53263F7F1800FE3FC3 /* Frameworks */,
+				74648A54263F7F1800FE3FC3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EraseMind;
+			productName = EraseMind;
+			productReference = 74648A56263F7F1800FE3FC3 /* EraseMind.app */;
+			productType = "com.apple.product-type.application";
+		};
+		74648A6B263F7F1C00FE3FC3 /* EraseMindTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74648A83263F7F1D00FE3FC3 /* Build configuration list for PBXNativeTarget "EraseMindTests" */;
+			buildPhases = (
+				74648A68263F7F1C00FE3FC3 /* Sources */,
+				74648A69263F7F1C00FE3FC3 /* Frameworks */,
+				74648A6A263F7F1C00FE3FC3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				74648A6E263F7F1D00FE3FC3 /* PBXTargetDependency */,
+			);
+			name = EraseMindTests;
+			productName = EraseMindTests;
+			productReference = 74648A6C263F7F1D00FE3FC3 /* EraseMindTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		74648A76263F7F1D00FE3FC3 /* EraseMindUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74648A86263F7F1D00FE3FC3 /* Build configuration list for PBXNativeTarget "EraseMindUITests" */;
+			buildPhases = (
+				74648A73263F7F1D00FE3FC3 /* Sources */,
+				74648A74263F7F1D00FE3FC3 /* Frameworks */,
+				74648A75263F7F1D00FE3FC3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				74648A79263F7F1D00FE3FC3 /* PBXTargetDependency */,
+			);
+			name = EraseMindUITests;
+			productName = EraseMindUITests;
+			productReference = 74648A77263F7F1D00FE3FC3 /* EraseMindUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		74648A4E263F7F1800FE3FC3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					74648A55263F7F1800FE3FC3 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					74648A6B263F7F1C00FE3FC3 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 74648A55263F7F1800FE3FC3;
+					};
+					74648A76263F7F1D00FE3FC3 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 74648A55263F7F1800FE3FC3;
+					};
+				};
+			};
+			buildConfigurationList = 74648A51263F7F1800FE3FC3 /* Build configuration list for PBXProject "EraseMind" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 74648A4D263F7F1800FE3FC3;
+			productRefGroup = 74648A57263F7F1800FE3FC3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				74648A55263F7F1800FE3FC3 /* EraseMind */,
+				74648A6B263F7F1C00FE3FC3 /* EraseMindTests */,
+				74648A76263F7F1D00FE3FC3 /* EraseMindUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		74648A54263F7F1800FE3FC3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74648ABA263F9EEF00FE3FC3 /* Frankfurter Std Regular.otf in Resources */,
+				74648A66263F7F1C00FE3FC3 /* LaunchScreen.storyboard in Resources */,
+				74648A63263F7F1C00FE3FC3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74648A6A263F7F1C00FE3FC3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74648A75263F7F1D00FE3FC3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		74648A52263F7F1800FE3FC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74608D3B2643DB7400CFA5A2 /* PopUpView.swift in Sources */,
+				74608D2A26426CDF00CFA5A2 /* NSAttributedString+Extensions.swift in Sources */,
+				74648AAB263F986D00FE3FC3 /* UIView+Extensions.swift in Sources */,
+				74648AA6263F978000FE3FC3 /* IntroViewController.swift in Sources */,
+				74648A95263F830600FE3FC3 /* Theme.swift in Sources */,
+				74608D2026410CB500CFA5A2 /* MoodInputView.swift in Sources */,
+				74648AC2263FB7BB00FE3FC3 /* EnterMoodViewController.swift in Sources */,
+				74608D2F264273F800CFA5A2 /* FloatingScene.swift in Sources */,
+				74648A5A263F7F1800FE3FC3 /* AppDelegate.swift in Sources */,
+				74648AA0263F83EC00FE3FC3 /* ViewController.swift in Sources */,
+				74648AC7263FBBC000FE3FC3 /* NavigationController.swift in Sources */,
+				74648A5C263F7F1800FE3FC3 /* SceneDelegate.swift in Sources */,
+				74648AB5263F99E100FE3FC3 /* UIImage+Extensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74648A68263F7F1C00FE3FC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74648A71263F7F1D00FE3FC3 /* EraseMindTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74648A73263F7F1D00FE3FC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74648A7C263F7F1D00FE3FC3 /* EraseMindUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		74648A6E263F7F1D00FE3FC3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 74648A55263F7F1800FE3FC3 /* EraseMind */;
+			targetProxy = 74648A6D263F7F1D00FE3FC3 /* PBXContainerItemProxy */;
+		};
+		74648A79263F7F1D00FE3FC3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 74648A55263F7F1800FE3FC3 /* EraseMind */;
+			targetProxy = 74648A78263F7F1D00FE3FC3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		74648A64263F7F1C00FE3FC3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				74648A65263F7F1C00FE3FC3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		74648A7E263F7F1D00FE3FC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		74648A7F263F7F1D00FE3FC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		74648A81263F7F1D00FE3FC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NH78JLQW6Q;
+				INFOPLIST_FILE = EraseMind/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hwanmoon.EraseMind;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		74648A82263F7F1D00FE3FC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NH78JLQW6Q;
+				INFOPLIST_FILE = EraseMind/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hwanmoon.EraseMind;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		74648A84263F7F1D00FE3FC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NH78JLQW6Q;
+				INFOPLIST_FILE = EraseMindTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hwanmoon.EraseMindTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EraseMind.app/EraseMind";
+			};
+			name = Debug;
+		};
+		74648A85263F7F1D00FE3FC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NH78JLQW6Q;
+				INFOPLIST_FILE = EraseMindTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hwanmoon.EraseMindTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EraseMind.app/EraseMind";
+			};
+			name = Release;
+		};
+		74648A87263F7F1D00FE3FC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NH78JLQW6Q;
+				INFOPLIST_FILE = EraseMindUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hwanmoon.EraseMindUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EraseMind;
+			};
+			name = Debug;
+		};
+		74648A88263F7F1D00FE3FC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NH78JLQW6Q;
+				INFOPLIST_FILE = EraseMindUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hwanmoon.EraseMindUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EraseMind;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		74648A51263F7F1800FE3FC3 /* Build configuration list for PBXProject "EraseMind" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74648A7E263F7F1D00FE3FC3 /* Debug */,
+				74648A7F263F7F1D00FE3FC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74648A80263F7F1D00FE3FC3 /* Build configuration list for PBXNativeTarget "EraseMind" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74648A81263F7F1D00FE3FC3 /* Debug */,
+				74648A82263F7F1D00FE3FC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74648A83263F7F1D00FE3FC3 /* Build configuration list for PBXNativeTarget "EraseMindTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74648A84263F7F1D00FE3FC3 /* Debug */,
+				74648A85263F7F1D00FE3FC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74648A86263F7F1D00FE3FC3 /* Build configuration list for PBXNativeTarget "EraseMindUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74648A87263F7F1D00FE3FC3 /* Debug */,
+				74648A88263F7F1D00FE3FC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 74648A4E263F7F1800FE3FC3 /* Project object */;
+}
