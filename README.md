@@ -1,2 +1,1 @@
-# EraseMind
-Erase Mind iOS
+# mindEraser
